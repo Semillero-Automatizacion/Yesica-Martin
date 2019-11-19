@@ -7,7 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features="src/test/resources/features/",  
-		glue = "Github_Despegar", 
+		glue = "Github_Despegar.definitions", 
 		tags = "@tag1_CP0010M")
 
 public class Runner {
