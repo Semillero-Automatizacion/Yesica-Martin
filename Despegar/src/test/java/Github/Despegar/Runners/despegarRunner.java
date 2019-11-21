@@ -9,7 +9,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @CucumberOptions(
 		features= {"src/test/resources/features/casos.feature"},  
 		glue = {"Github.Despegar.Definitions"}, 
-		tags = {"@tag1"})
+		tags = {"@tag2"})
 public class despegarRunner {
 
 }
